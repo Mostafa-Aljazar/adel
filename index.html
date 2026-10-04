@@ -1,0 +1,2116 @@
+<!doctype html>
+
+<html class="scroll-smooth" dir="rtl" lang="ar">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>ريڤا | مساحة عمل ومكاتب خاصة بالشرقية</title>
+
+    <!-- Google Fonts: Alexandria & IBM Plex Sans Arabic -->
+
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800;900&amp;family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+
+        theme: {
+          extend: {
+            colors: {
+              night: "#121110",
+
+              nightSecondary: "#1C1A17",
+
+              nightCard: "#221F1C",
+
+              nightCardHover: "#292521",
+
+              nightBorder: "#2E2A25",
+
+              nightBorderLight: "#423C34",
+
+              amberAccent: "#E8A34B",
+
+              amberGlow: "#FFA733",
+
+              creamText: "#F3EDE2",
+
+              mutedCream: "#A69E92",
+            },
+
+            fontFamily: {
+              heading: ["Alexandria", "sans-serif"],
+
+              body: ['"IBM Plex Sans Arabic"', "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      body {
+        background-color: #121110;
+
+        color: #f3ede2;
+
+        font-family: "IBM Plex Sans Arabic", sans-serif;
+
+        overflow-x: hidden;
+
+        margin: 0;
+
+        padding: 0;
+
+        -webkit-font-smoothing: antialiased;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      .font-heading {
+        font-family: "Alexandria", sans-serif;
+      }
+
+      .amber-glow-box {
+        box-shadow: 0 0 35px -5px rgba(232, 163, 75, 0.32);
+      }
+
+      .amber-glow-box-lg {
+        box-shadow: 0 0 50px -10px rgba(232, 163, 75, 0.4);
+      }
+
+      .amber-glow-text {
+        text-shadow: 0 0 24px rgba(232, 163, 75, 0.5);
+      }
+
+      .amber-border-glow {
+        border: 1px solid #e8a34b;
+
+        box-shadow: 0 0 30px -5px rgba(232, 163, 75, 0.38);
+      }
+
+      .dot-glow {
+        box-shadow: 0 0 10px 2px #e8a34b;
+      }
+
+      /* Hide scrollbar */
+
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+
+      .no-scrollbar {
+        -ms-overflow-style: none;
+
+        scrollbar-width: none;
+      }
+    </style>
+  </head>
+
+  <body
+    class="relative bg-night selection:bg-amberAccent min-h-screen text-creamText selection:text-night"
+  >
+    <!-- Floating WhatsApp Action Button with Desktop Hover Label -->
+
+    <div class="group bottom-5 sm:bottom-8 left-5 sm:left-8 z-50 fixed flex items-center gap-3">
+      <span
+        class="hidden sm:inline-block bg-nightCard/95 opacity-0 group-hover:opacity-100 shadow-2xl backdrop-blur-md px-3.5 py-2 border border-amberAccent/40 rounded-full font-heading font-medium text-creamText text-xs transition-all translate-x-2 group-hover:translate-x-0 duration-300 pointer-events-none"
+      >
+        تواصل معنا مباشرة
+      </span>
+
+      <a
+        aria-label="تواصل عبر واتساب"
+        class="flex justify-center items-center bg-amberAccent shadow-2xl rounded-full w-14 xl:w-16 h-14 xl:h-16 text-night hover:scale-105 active:scale-95 transition-all duration-300 amber-glow-box"
+        href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20%D8%B1%D9%8A%D9%81%D8%A7%D8%8C%20%D8%AD%D8%A7%D8%A8%D8%A8%20%D8%A3%D8%B3%D8%AA%D9%81%D8%B3%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%AD%D8%AC%D8%B2"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <svg class="fill-current w-7 xl:w-8 h-7 xl:h-8" viewbox="0 0 24 24">
+          <path
+            d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.585 1.761.88 2.791.88h.001c3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.586-5.766-5.769-5.766zm3.376 8.204c-.14.394-.813.766-1.127.813-.314.047-.698.077-1.128-.061-.43-.139-1.282-.444-2.185-1.25-.795-.711-1.326-1.577-1.481-1.844-.155-.268-.016-.412.124-.551.127-.126.282-.326.423-.489.14-.163.187-.279.282-.465.093-.186.046-.349-.024-.488-.07-.14-.627-1.512-.86-2.07-.227-.543-.458-.469-.628-.477-.163-.008-.35-.01-.537-.01-.186 0-.489.07-.745.349-.256.279-.977.955-.977 2.33 0 1.373 1.001 2.7 1.14 2.886.14.186 1.97 3.008 4.774 4.22 1.875.811 2.257.649 2.663.61.643-.061 1.458-.595 1.667-1.171.209-.576.209-1.07.146-1.171-.063-.101-.25-.163-.39-.233zM12 2C6.477 2 2 6.477 2 12c0 1.891.527 3.66 1.442 5.169L2 22l4.981-1.399C8.423 21.493 10.153 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"
+          ></path>
+        </svg>
+      </a>
+    </div>
+
+    <!-- SECTION 1: Expansive Desktop Navbar -->
+
+    <header
+      class="top-0 z-40 sticky bg-[#121110]/90 backdrop-blur-xl border-nightBorder border-b transition-all duration-300"
+    >
+      <div
+        class="flex justify-between items-center mx-auto px-4 sm:px-10 lg:px-12 py-3 sm:py-4 max-w-7xl"
+      >
+        <!-- Right: Logo "ريڤا" with 3 amber glowing dots -->
+
+        <a
+          aria-label="الصفحة الرئيسية لريڤا"
+          class="group flex items-center gap-3"
+          href="#"
+        >
+          <div class="relative flex flex-col items-center">
+            <div class="flex gap-1 mb-[-4px]">
+              <span
+                class="bg-amberAccent rounded-full w-1.5 h-1.5 group-hover:scale-125 transition-transform dot-glow"
+              ></span>
+
+              <span
+                class="bg-amberAccent rounded-full w-1.5 h-1.5 group-hover:scale-125 transition-transform delay-75 dot-glow"
+              ></span>
+
+              <span
+                class="bg-amberAccent rounded-full w-1.5 h-1.5 group-hover:scale-125 transition-transform delay-150 dot-glow"
+              ></span>
+            </div>
+
+            <span
+              class="font-heading font-black text-creamText group-hover:text-amberAccent text-2xl sm:text-3xl tracking-wide transition-colors"
+              >ريـڤـا</span
+            >
+          </div>
+
+          <span
+            class="hidden xl:inline-block bg-nightBorder mx-2 w-px h-6"
+          ></span>
+
+          <span
+            class="hidden xl:inline-block font-heading font-medium text-mutedCream text-xs uppercase tracking-widest"
+            >مساحة عمل · مكاتب</span
+          >
+        </a>
+
+        <!-- Center: Wide desktop navigation links -->
+
+        <nav
+          class="hidden lg:flex items-center gap-5 xl:gap-10 font-heading whitespace-nowrap font-medium text-mutedCream text-sm"
+        >
+          <a
+            class="after:right-0 after:bottom-0 after:absolute relative after:bg-amberAccent py-1 after:w-0 hover:after:w-full after:h-0.5 hover:text-amberAccent transition-colors after:transition-all"
+            href="#offerings"
+            >المساحات والخدمات</a
+          >
+
+          <a
+            class="after:right-0 after:bottom-0 after:absolute relative after:bg-amberAccent py-1 after:w-0 hover:after:w-full after:h-0.5 hover:text-amberAccent transition-colors after:transition-all"
+            href="#facilities"
+            >المرافق</a
+          >
+
+          <a
+            class="after:right-0 after:bottom-0 after:absolute relative after:bg-amberAccent py-1 after:w-0 hover:after:w-full after:h-0.5 hover:text-amberAccent transition-colors after:transition-all"
+            href="#pricing"
+            >الأسعار والباقات</a
+          >
+
+          <a
+            class="after:right-0 after:bottom-0 after:absolute relative after:bg-amberAccent py-1 after:w-0 hover:after:w-full after:h-0.5 hover:text-amberAccent transition-colors after:transition-all"
+            href="#companies"
+            >حلول الشركات</a
+          >
+
+          <a
+            class="after:right-0 after:bottom-0 after:absolute relative after:bg-amberAccent py-1 after:w-0 hover:after:w-full after:h-0.5 hover:text-amberAccent transition-colors after:transition-all"
+            href="#gallery"
+            >جولة بصرية</a
+          >
+
+          <a
+            class="after:right-0 after:bottom-0 after:absolute relative after:bg-amberAccent py-1 after:w-0 hover:after:w-full after:h-0.5 hover:text-amberAccent transition-colors after:transition-all"
+            href="#faq"
+            >الأسئلة</a
+          >
+        </nav>
+
+        <!-- Left: WhatsApp Desktop CTA -->
+
+        <div class="flex items-center gap-2 sm:gap-4">
+          <div class="hidden xl:flex flex-col text-xs text-left leading-tight">
+            <span class="font-heading font-medium text-amberAccent"
+              >متاحين الآن</span
+            >
+
+            <span class="text-mutedCream">9:00 ص – 12:00 م</span>
+          </div>
+
+          <a
+            class="flex items-center gap-2 bg-amberAccent hover:bg-amberGlow shadow-lg px-4 sm:px-6 py-2 sm:py-2.5 rounded-full font-heading font-extrabold text-night text-xs sm:text-sm whitespace-nowrap hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 amber-glow-box"
+            href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20%D8%B1%D9%8A%D9%81%D8%A7%D8%8C%20%D8%AD%D8%A7%D8%A8%D8%A8%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D9%85%D9%83%D8%AA%D8%A8"
+          >
+            <span>احجز على واتساب</span>
+
+            <svg class="fill-current w-4 h-4 rotate-180" viewbox="0 0 20 20">
+              <path
+                clip-rule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+
+          <!-- Mobile menu toggle -->
+
+          <button
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            aria-label="فتح القائمة"
+            class="lg:hidden flex justify-center items-center border border-nightBorder hover:border-amberAccent/60 rounded-full w-10 h-10 text-creamText transition-colors shrink-0"
+            id="menu-toggle"
+            type="button"
+          >
+            <svg
+              class="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M4 7h16M4 12h16M4 17h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile navigation (shown below lg) -->
+
+      <nav
+        class="hidden lg:hidden px-4 sm:px-10 pb-3 border-nightBorder border-t font-heading font-medium text-mutedCream text-sm"
+        id="mobile-menu"
+      >
+        <a
+          class="block py-3 border-nightBorder/60 border-b hover:text-amberAccent transition-colors"
+          href="#offerings"
+          >المساحات والخدمات</a
+        >
+
+        <a
+          class="block py-3 border-nightBorder/60 border-b hover:text-amberAccent transition-colors"
+          href="#facilities"
+          >المرافق</a
+        >
+
+        <a
+          class="block py-3 border-nightBorder/60 border-b hover:text-amberAccent transition-colors"
+          href="#pricing"
+          >الأسعار والباقات</a
+        >
+
+        <a
+          class="block py-3 border-nightBorder/60 border-b hover:text-amberAccent transition-colors"
+          href="#companies"
+          >حلول الشركات</a
+        >
+
+        <a
+          class="block py-3 border-nightBorder/60 border-b hover:text-amberAccent transition-colors"
+          href="#gallery"
+          >جولة بصرية</a
+        >
+
+        <a
+          class="block py-3 hover:text-amberAccent transition-colors"
+          href="#faq"
+          >الأسئلة</a
+        >
+      </nav>
+    </header>
+
+    <!-- SECTION 2: Full-screen Widescreen Desktop Hero Section -->
+
+    <section
+      class="relative flex justify-center items-center px-4 sm:px-10 lg:px-12 py-14 sm:py-20 min-h-[80vh] sm:min-h-[88vh] xl:min-h-[92vh] overflow-hidden"
+    >
+      <!-- Hero Night Photo Background -->
+
+      <div class="z-0 absolute inset-0">
+        <img
+          alt="مساحة ريڤا للعمل المشترك بالشرقية ليلاً"
+          class="brightness-[0.42] w-full h-full object-center object-cover scale-105 hover:scale-100 transition-transform duration-1000 ease-out filter contrast-110 transform"
+          src="https://lh3.googleusercontent.com/aida/AEtjO1WfWVf4P3eHKIjznNhVCxO6Y4-suDG1-D5wMi56prvbazAYh9kk-KL_-Ig8j1DBfOvmtVcjHSmWPpAckWjJ0gLvY6pgj3St4ZS11ukA0O9V5BYKZ7Hk5B7nnBwjCxTXhCGa8aZ289YUbvbadNFN0N4SbfYY2zpUlgq70iXYbTWTFOqYvPw5hw_wVqP4IKdaW-FTQ9HdtSjcTCPeLRWtYvtivJ58Taz6d87k2uZVNu60oszxhccDhGeShAz9"
+        />
+
+        <!-- Cinematic Multi-stop Vignette Overlays -->
+
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-night via-night/75 to-night/40"
+        ></div>
+
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-night/80 via-transparent to-night/80"
+        ></div>
+
+        <div
+          class="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_20%,#121110_90%)]"
+        ></div>
+      </div>
+
+      <!-- Hero Content (Spacious Editorial Layout) -->
+
+      <div
+        class="z-10 relative flex flex-col items-center mx-auto w-full max-w-5xl text-center"
+      >
+        <!-- Amber Working Hours Badge -->
+
+        <div
+          class="inline-flex flex-wrap justify-center items-center gap-x-3 gap-y-1 bg-night/80 shadow-xl backdrop-blur-md mb-8 px-4 sm:px-5 py-2 border border-amberAccent/40 rounded-2xl sm:rounded-full"
+        >
+          <span
+            class="bg-amberAccent rounded-full w-2.5 h-2.5 animate-pulse dot-glow"
+          ></span>
+
+          <span
+            class="font-heading font-semibold text-amberAccent text-sm tracking-wide"
+            >من 9 الصبح لـ 12 بالليل</span
+          >
+
+          <span class="hidden sm:inline font-bold text-nightBorder text-xs">|</span>
+
+          <span class="font-medium text-creamText/80 text-sm"
+            >مفتوح يومياً في قلب الشرقية</span
+          >
+        </div>
+
+        <!-- Main Headline in Egyptian Arabic (Scaled for High-res Display) -->
+
+        <h1
+          class="mb-8 max-w-4xl font-heading font-black text-creamText text-3xl sm:text-5xl lg:text-6xl leading-tight lg:leading-[1.18] tracking-tight"
+        >
+          مكتبك جاهز… <br class="hidden sm:inline" />
+
+          <span class="inline-block relative text-amberAccent amber-glow-text">
+            من غير وجع دماغ
+
+            <svg
+              class="-bottom-2 absolute inset-x-0 w-full text-amberAccent/30"
+              fill="none"
+              viewbox="0 0 300 12"
+            >
+              <path
+                d="M2 9C75 3 225 3 298 9"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="4"
+              ></path>
+            </svg>
+          </span>
+        </h1>
+
+        <!-- Subtext (Generous max-width and typography) -->
+
+        <p
+          class="mb-12 max-w-3xl font-body font-normal text-creamText/90 text-sm sm:text-lg lg:text-xl leading-relaxed"
+        >
+          مساحة عمل، مكاتب خاصة، وقاعات اجتماعات فخمة في قلب الشرقية. هدوء يخليك
+          تنجز شغلك بمزاج رايق وبأعلى تركيز وإنتاجية.
+        </p>
+
+        <!-- Desktop Action Buttons -->
+
+        <div
+          class="flex sm:flex-row flex-col justify-center items-center gap-5 w-full sm:w-auto"
+        >
+          <a
+            class="bg-amberAccent hover:bg-amberGlow shadow-xl px-8 py-4 rounded-xl w-full sm:w-auto min-w-[220px] font-heading font-black text-night text-sm lg:text-base text-center hover:scale-105 active:scale-[0.98] transition-all duration-300 amber-glow-box"
+            href="https://wa.me/201000000000"
+          >
+            احجز مكانك دلوقتي
+          </a>
+
+          <a
+            class="bg-nightCard/80 hover:bg-nightCard backdrop-blur-md px-8 py-4 border border-nightBorder hover:border-amberAccent/60 rounded-xl w-full sm:w-auto min-w-[220px] font-heading font-semibold text-creamText text-sm lg:text-base text-center transition-all duration-300"
+            href="#pricing"
+          >
+            شوف الأسعار والباقات
+          </a>
+        </div>
+
+        <!-- Quick Trust Indicators below Hero -->
+
+        <div
+          class="gap-x-4 gap-y-5 sm:gap-6 lg:gap-12 grid grid-cols-2 md:grid-cols-4 mt-10 sm:mt-14 pt-8 border-nightBorder/60 border-t w-full max-w-4xl text-right"
+        >
+          <div class="flex items-center gap-3">
+            <span class="font-black text-amberAccent text-lg">✦</span>
+
+            <div>
+              <span class="block font-heading font-bold text-creamText text-sm"
+                >إنترنت فايبر فائق</span
+              >
+
+              <span class="text-mutedCream text-xs">سرعة ثابتة لا تنقطع</span>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <span class="font-black text-amberAccent text-lg">✦</span>
+
+            <div>
+              <span class="block font-heading font-bold text-creamText text-sm"
+                >كهرباء مستمرة 24/7</span
+              >
+
+              <span class="text-mutedCream text-xs">مولدات وطاقة احتياطية</span>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <span class="font-black text-amberAccent text-lg">✦</span>
+
+            <div>
+              <span class="block font-heading font-bold text-creamText text-sm"
+                >بار قهوة متخصص</span
+              >
+
+              <span class="text-mutedCream text-xs">باريستا ومشروبات طازة</span>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <span class="font-black text-amberAccent text-lg">✦</span>
+
+            <div>
+              <span class="block font-heading font-bold text-creamText text-sm"
+                >عزل صوتي تام</span
+              >
+
+              <span class="text-mutedCream text-xs">هدوء واحترافية مطلقة</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Three Offerings (Expansive 3-Column Desktop Grid) -->
+
+    <section
+      class="bg-nightSecondary px-4 sm:px-10 lg:px-12 py-14 sm:py-20 lg:py-24 border-nightBorder border-t"
+      id="offerings"
+    >
+      <div class="mx-auto max-w-7xl">
+        <div
+          class="flex md:flex-row flex-col justify-between md:items-end gap-6 mb-10 lg:mb-16"
+        >
+          <div>
+            <span
+              class="block mb-2 font-heading font-bold text-amberAccent text-xs lg:text-sm uppercase tracking-widest"
+              >خدماتنا الأساسية</span
+            >
+
+            <h2
+              class="font-heading font-black text-creamText text-2xl sm:text-3xl lg:text-4xl"
+            >
+              اختر الطريقة اللي تناسب شغلك
+            </h2>
+          </div>
+
+          <p class="max-w-md text-mutedCream text-sm">
+            حلول مجهزة بالكامل ومصممة هندسياً علشان تديك أعلى درجات الراحة
+            والتركيز من أول دقيقة تدخل فيها.
+          </p>
+        </div>
+
+        <div class="gap-6 lg:gap-8 grid grid-cols-1 lg:grid-cols-3 mx-auto max-w-xl lg:max-w-none">
+          <!-- Offering 01: مساحة عمل مشتركة -->
+
+          <div
+            class="group flex flex-col justify-between bg-night shadow-lg border border-nightBorder hover:border-amberAccent/60 rounded-3xl overflow-hidden transition-all hover:-translate-y-2 duration-300"
+          >
+            <div>
+              <div class="relative w-full h-52 sm:h-64 lg:h-72 overflow-hidden">
+                <img
+                  alt="مساحة العمل المشتركة في ريڤا"
+                  class="brightness-[0.75] group-hover:brightness-90 w-full h-full object-cover group-hover:scale-105 transition-all duration-500 filter"
+                  src="https://lh3.googleusercontent.com/aida/AEtjO1WfWVf4P3eHKIjznNhVCxO6Y4-suDG1-D5wMi56prvbazAYh9kk-KL_-Ig8j1DBfOvmtVcjHSmWPpAckWjJ0gLvY6pgj3St4ZS11ukA0O9V5BYKZ7Hk5B7nnBwjCxTXhCGa8aZ289YUbvbadNFN0N4SbfYY2zpUlgq70iXYbTWTFOqYvPw5hw_wVqP4IKdaW-FTQ9HdtSjcTCPeLRWtYvtivJ58Taz6d87k2uZVNu60oszxhccDhGeShAz9"
+                />
+
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-night via-transparent to-transparent"
+                ></div>
+
+                <div
+                  class="top-5 right-5 absolute bg-night/85 shadow-lg backdrop-blur-md px-3.5 py-1.5 border border-amberAccent/40 rounded-xl"
+                >
+                  <span class="font-heading font-black text-amberAccent text-lg"
+                    >01</span
+                  >
+                </div>
+              </div>
+
+              <div class="p-6 lg:p-8">
+                <h3
+                  class="mb-3 font-heading font-bold text-creamText group-hover:text-amberAccent text-xl transition-colors"
+                >
+                  مساحة عمل مشتركة
+                </h3>
+
+                <p class="mb-6 text-mutedCream text-sm leading-relaxed">
+                  اشتغل بالساعة أو بالأسبوع في جو هادي ومريح. مكاتب واسعة، فيش
+                  كهربا في كل مكان، وإنترنت فائق السرعة بدون تقطيع.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-wrap justify-between items-center gap-3 mt-auto px-6 lg:px-8 pt-4 pb-6 lg:pb-8 border-nightBorder/60 border-t"
+            >
+              <span class="font-heading font-medium text-amberAccent text-xs"
+                >ساعات مرنة · قهوة وضيافة</span
+              >
+
+              <a
+                class="flex items-center gap-1.5 font-heading font-bold text-creamText group-hover:text-amberAccent text-sm transition-colors"
+                href="https://wa.me/201000000000?text=%D8%AD%D8%AC%D8%B2%20%D9%85%D9%83%D8%AA%D8%A8%20%D9%85%D8%B4%D8%AA%D8%B1%D9%83"
+              >
+                <span>احجز ديسك</span>
+
+                <span class="text-amberAccent">←</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Offering 02: مكاتب خاصة للإيجار -->
+
+          <div
+            class="group flex flex-col justify-between bg-night shadow-xl border border-amberAccent/40 rounded-3xl overflow-hidden transition-all hover:-translate-y-2 duration-300 amber-glow-box"
+          >
+            <div>
+              <div class="relative w-full h-52 sm:h-64 lg:h-72 overflow-hidden">
+                <img
+                  alt="مكاتب خاصة للإيجار في ريڤا"
+                  class="brightness-[0.7] group-hover:brightness-85 w-full h-full object-cover group-hover:scale-105 transition-all duration-500 filter"
+                  src="https://lh3.googleusercontent.com/aida/AEtjO1Wp7O2o8y9ayKP8wsU_IKvj2PGgf0thFrfpDYS98TD1iMkcuhTDnTqQA_8I3QmGhjPcFvKyDu8eSCf1_v_o7wBGL-aHOQUvepEIqdjhN19stNPws6acuQKjy4gzaWfGlVt6PRgWkQiY1CHJg065N4hOZekjtxl_96RqiHQTTJffkApsOkHDKaWOkbxO4h7QK4lEbMdO83352r98_taGygnjfphHxy5ah5AWkcPm7kN13Wpy75eVggpud01_"
+                />
+
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-night via-transparent to-transparent"
+                ></div>
+
+                <div
+                  class="top-5 right-5 absolute bg-night/85 shadow-lg backdrop-blur-md px-3.5 py-1.5 border border-amberAccent/40 rounded-xl"
+                >
+                  <span class="font-heading font-black text-amberAccent text-lg"
+                    >02</span
+                  >
+                </div>
+
+                <span
+                  class="top-5 left-5 absolute bg-amberAccent shadow-md px-3 py-1 rounded-full font-heading font-extrabold text-night text-xs"
+                >
+                  الأكثر طلباً للفرق
+                </span>
+              </div>
+
+              <div class="p-6 lg:p-8">
+                <h3
+                  class="mb-3 font-heading font-bold text-creamText group-hover:text-amberAccent text-xl transition-colors"
+                >
+                  مكاتب خاصة للإيجار
+                </h3>
+
+                <p class="mb-6 text-mutedCream text-sm leading-relaxed">
+                  مكتب جاهز ومفروش بالكامل لفريقك أو شركتك الناشئة. تدخل تشتغل
+                  على طول بخصوصية تامة وبدون أي تكاليف تأسيس وتجهيز مقلقة.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-wrap justify-between items-center gap-3 mt-auto px-6 lg:px-8 pt-4 pb-6 lg:pb-8 border-nightBorder/60 border-t"
+            >
+              <span class="font-heading font-medium text-amberAccent text-xs"
+                >مفاتيح خاصة · خصوصية تامة</span
+              >
+
+              <a
+                class="flex items-center gap-1.5 font-heading font-bold text-creamText group-hover:text-amberAccent text-sm transition-colors"
+                href="https://wa.me/201000000000?text=%D8%AD%D8%AC%D8%B2%20%D9%85%D9%83%D8%AA%D8%A8%20%D8%AE%D8%A7%D8%B5"
+              >
+                <span>معاينة المكتب</span>
+
+                <span class="text-amberAccent">←</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Offering 03: قاعات اجتماعات -->
+
+          <div
+            class="group flex flex-col justify-between bg-night shadow-lg border border-nightBorder hover:border-amberAccent/60 rounded-3xl overflow-hidden transition-all hover:-translate-y-2 duration-300"
+          >
+            <div>
+              <div class="relative w-full h-52 sm:h-64 lg:h-72 overflow-hidden">
+                <img
+                  alt="قاعات اجتماعات مجهزة بالشرقية"
+                  class="brightness-[0.75] group-hover:brightness-90 w-full h-full object-cover group-hover:scale-105 transition-all duration-500 filter"
+                  src="https://lh3.googleusercontent.com/aida/AEtjO1Wp7O2o8y9ayKP8wsU_IKvj2PGgf0thFrfpDYS98TD1iMkcuhTDnTqQA_8I3QmGhjPcFvKyDu8eSCf1_v_o7wBGL-aHOQUvepEIqdjhN19stNPws6acuQKjy4gzaWfGlVt6PRgWkQiY1CHJg065N4hOZekjtxl_96RqiHQTTJffkApsOkHDKaWOkbxO4h7QK4lEbMdO83352r98_taGygnjfphHxy5ah5AWkcPm7kN13Wpy75eVggpud01_"
+                />
+
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-night via-transparent to-transparent"
+                ></div>
+
+                <div
+                  class="top-5 right-5 absolute bg-night/85 shadow-lg backdrop-blur-md px-3.5 py-1.5 border border-amberAccent/40 rounded-xl"
+                >
+                  <span class="font-heading font-black text-amberAccent text-lg"
+                    >03</span
+                  >
+                </div>
+              </div>
+
+              <div class="p-6 lg:p-8">
+                <h3
+                  class="mb-3 font-heading font-bold text-creamText group-hover:text-amberAccent text-xl transition-colors"
+                >
+                  قاعات اجتماعات
+                </h3>
+
+                <p class="mb-6 text-mutedCream text-sm leading-relaxed">
+                  قاعات مجهزة لاجتماعات الشركات، مقابلات التوظيف، والعروض
+                  التقديمية. شاشات عرض 4K، عزل صوتي ممتاز وخدمة ضيافة VIP راقية.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-wrap justify-between items-center gap-3 mt-auto px-6 lg:px-8 pt-4 pb-6 lg:pb-8 border-nightBorder/60 border-t"
+            >
+              <span class="font-heading font-medium text-amberAccent text-xs"
+                >شاشة 4K · عزل صوتي</span
+              >
+
+              <a
+                class="flex items-center gap-1.5 font-heading font-bold text-creamText group-hover:text-amberAccent text-sm transition-colors"
+                href="https://wa.me/201000000000?text=%D8%AD%D8%AC%D8%B2%20%D9%82%D8%A7%D8%B9%D8%A9%20%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D8%A7%D8%AA"
+              >
+                <span>احجز القاعة</span>
+
+                <span class="text-amberAccent">←</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Facilities (Desktop Split Layout: Coffee Bar Image + 2-Column Grid) -->
+
+    <section
+      class="bg-night px-4 sm:px-10 lg:px-12 py-14 sm:py-20 lg:py-24 border-nightBorder border-t"
+      id="facilities"
+    >
+      <div class="mx-auto max-w-7xl">
+        <div class="mb-10 lg:mb-14">
+          <span
+            class="block mb-2 font-heading font-bold text-amberAccent text-xs lg:text-sm uppercase tracking-widest"
+            >راحتك هي الأساس</span
+          >
+
+          <h2
+            class="font-heading font-black text-creamText text-2xl sm:text-3xl lg:text-4xl"
+          >
+            كل اللي تحتاجه عشان تركز وتبدع
+          </h2>
+        </div>
+
+        <!-- Desktop Split Layout (5 cols image / 7 cols facilities grid) -->
+
+        <div class="items-stretch gap-6 lg:gap-10 grid grid-cols-1 lg:grid-cols-12">
+          <!-- Right Column (Image of Coffee Bar) -->
+
+          <div
+            class="relative flex flex-col justify-end lg:col-span-5 shadow-2xl border border-nightBorder rounded-3xl min-h-[320px] sm:min-h-[420px] lg:min-h-full overflow-hidden"
+          >
+            <img
+              alt="بار القهوة المتخصص في مساحة ريڤا"
+              class="absolute inset-0 brightness-[0.8] w-full h-full object-cover hover:scale-105 transition-transform duration-700 filter"
+              src="https://lh3.googleusercontent.com/aida/AEtjO1XgYqs_eIPPbMger2FHrYnNGbAy5Eg6zfR11QI4-J9pQWtnqghKqr_EMbZo3guuPFm23npvaPWD94egRYyUdtJRbhgqBPpHPkRDYveYeH5oOEomy8Mx7snkn3VGRrai0JcSlCyWjDFyJ01XOSv9cH-ym8ah5PGezpaY6k2KSR7aaJLLaE2N_KwA8LmlycWGulbkmpHudVY5RnFnIaiM6fHCCJIvhjCjr59PB7mvnSKrHa0kGwHsSuM2k31v"
+            />
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-night via-night/50 to-transparent"
+            ></div>
+
+            <div
+              class="z-10 relative bg-night/80 backdrop-blur-md m-4 sm:m-5 p-5 sm:p-8 border border-nightBorderLight/40 rounded-2xl"
+            >
+              <span
+                class="inline-block bg-amberAccent/20 mb-2 px-3 py-1 rounded-md font-heading font-bold text-amberAccent text-xs"
+                >ضيافة استثنائية</span
+              >
+
+              <h3 class="mb-1 font-heading font-black text-creamText text-xl">
+                بار قهوة ومشروبات متخصصة
+              </h3>
+
+              <p class="font-body text-creamText/80 text-sm leading-relaxed">
+                اسبريسو، مشروبات مثلجة، سناكس طازة يومياً، وباريستا جاهز دايماً
+                يظبط مزاجك علشان يومك يبدأ صح.
+              </p>
+            </div>
+          </div>
+
+          <!-- Left Column (6 Numbered Facilities in a 2-Column Desktop Grid) -->
+
+          <div
+            class="content-between gap-5 grid grid-cols-1 sm:grid-cols-2 lg:col-span-7"
+          >
+            <!-- Facility 01 -->
+
+            <div
+              class="group flex flex-col justify-between bg-nightSecondary hover:bg-nightCard p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+            >
+              <div class="flex justify-between items-center mb-4">
+                <span
+                  class="bg-night px-3 py-1 border border-nightBorder group-hover:border-amberAccent/40 rounded-xl font-heading font-black text-amberAccent text-lg transition-colors"
+                  >01</span
+                >
+
+                <span
+                  class="bg-amberAccent opacity-60 rounded-full w-2 h-2 dot-glow"
+                ></span>
+              </div>
+
+              <div>
+                <h4
+                  class="font-heading font-bold text-creamText group-hover:text-amberAccent text-base transition-colors"
+                >
+                  إنترنت فائق السرعة
+                </h4>
+
+                <p
+                  class="mt-2 font-body text-mutedCream text-sm leading-relaxed"
+                >
+                  فايبر مستقر ومخصص لاجتماعات زووم والرفع الثقيل بدون أي انقطاع.
+                </p>
+              </div>
+            </div>
+
+            <!-- Facility 02 -->
+
+            <div
+              class="group flex flex-col justify-between bg-nightSecondary hover:bg-nightCard p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+            >
+              <div class="flex justify-between items-center mb-4">
+                <span
+                  class="bg-night px-3 py-1 border border-nightBorder group-hover:border-amberAccent/40 rounded-xl font-heading font-black text-amberAccent text-lg transition-colors"
+                  >02</span
+                >
+
+                <span
+                  class="bg-amberAccent opacity-60 rounded-full w-2 h-2 dot-glow"
+                ></span>
+              </div>
+
+              <div>
+                <h4
+                  class="font-heading font-bold text-creamText group-hover:text-amberAccent text-base transition-colors"
+                >
+                  مشروبات سخنة وساقعة
+                </h4>
+
+                <p
+                  class="mt-2 font-body text-mutedCream text-sm leading-relaxed"
+                >
+                  بار متخصص لجميع أنواع القهوة المختصة والشاي والمثلجات طوال
+                  اليوم.
+                </p>
+              </div>
+            </div>
+
+            <!-- Facility 03 -->
+
+            <div
+              class="group flex flex-col justify-between bg-nightSecondary hover:bg-nightCard p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+            >
+              <div class="flex justify-between items-center mb-4">
+                <span
+                  class="bg-night px-3 py-1 border border-nightBorder group-hover:border-amberAccent/40 rounded-xl font-heading font-black text-amberAccent text-lg transition-colors"
+                  >03</span
+                >
+
+                <span
+                  class="bg-amberAccent opacity-60 rounded-full w-2 h-2 dot-glow"
+                ></span>
+              </div>
+
+              <div>
+                <h4
+                  class="font-heading font-bold text-creamText group-hover:text-amberAccent text-base transition-colors"
+                >
+                  كهرباء مستمرة بدون انقطاع
+                </h4>
+
+                <p
+                  class="mt-2 font-body text-mutedCream text-sm leading-relaxed"
+                >
+                  أنظمة طاقة ذكية ومولد كهربائي احتياطي يشتغل تلقائياً في أجزاء
+                  من الثانية.
+                </p>
+              </div>
+            </div>
+
+            <!-- Facility 04 -->
+
+            <div
+              class="group flex flex-col justify-between bg-nightSecondary hover:bg-nightCard p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+            >
+              <div class="flex justify-between items-center mb-4">
+                <span
+                  class="bg-night px-3 py-1 border border-nightBorder group-hover:border-amberAccent/40 rounded-xl font-heading font-black text-amberAccent text-lg transition-colors"
+                  >04</span
+                >
+
+                <span
+                  class="bg-amberAccent opacity-60 rounded-full w-2 h-2 dot-glow"
+                ></span>
+              </div>
+
+              <div>
+                <h4
+                  class="font-heading font-bold text-creamText group-hover:text-amberAccent text-base transition-colors"
+                >
+                  شاشات عرض ذكية
+                </h4>
+
+                <p
+                  class="mt-2 font-body text-mutedCream text-sm leading-relaxed"
+                >
+                  شاشات 4K فائقة الوضوح مع وصلات لاسلكية سريعة للعروض التقديمية.
+                </p>
+              </div>
+            </div>
+
+            <!-- Facility 05 -->
+
+            <div
+              class="group flex flex-col justify-between bg-nightSecondary hover:bg-nightCard p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+            >
+              <div class="flex justify-between items-center mb-4">
+                <span
+                  class="bg-night px-3 py-1 border border-nightBorder group-hover:border-amberAccent/40 rounded-xl font-heading font-black text-amberAccent text-lg transition-colors"
+                  >05</span
+                >
+
+                <span
+                  class="bg-amberAccent opacity-60 rounded-full w-2 h-2 dot-glow"
+                ></span>
+              </div>
+
+              <div>
+                <h4
+                  class="font-heading font-bold text-creamText group-hover:text-amberAccent text-base transition-colors"
+                >
+                  كراسي مريحة وطبية
+                </h4>
+
+                <p
+                  class="mt-2 font-body text-mutedCream text-sm leading-relaxed"
+                >
+                  كراسي مريحة ومكاتب مصممة هندسياً لدعم الظهر لساعات العمل
+                  الطويلة.
+                </p>
+              </div>
+            </div>
+
+            <!-- Facility 06 -->
+
+            <div
+              class="group flex flex-col justify-between bg-nightSecondary hover:bg-nightCard p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+            >
+              <div class="flex justify-between items-center mb-4">
+                <span
+                  class="bg-night px-3 py-1 border border-nightBorder group-hover:border-amberAccent/40 rounded-xl font-heading font-black text-amberAccent text-lg transition-colors"
+                  >06</span
+                >
+
+                <span
+                  class="bg-amberAccent opacity-60 rounded-full w-2 h-2 dot-glow"
+                ></span>
+              </div>
+
+              <div>
+                <h4
+                  class="font-heading font-bold text-creamText group-hover:text-amberAccent text-base transition-colors"
+                >
+                  هدوء تام وجو احترافي
+                </h4>
+
+                <p
+                  class="mt-2 font-body text-mutedCream text-sm leading-relaxed"
+                >
+                  مناطق صامتة تماماً ومناطق اتصالات مخصصة لضمان أقصى درجات
+                  التركيز.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: Pricing (Side-by-Side 2-Column Wide Desktop Layout) -->
+
+    <section
+      class="bg-nightSecondary px-4 sm:px-10 lg:px-12 py-14 sm:py-20 lg:py-24 border-nightBorder border-t"
+      id="pricing"
+    >
+      <div class="mx-auto max-w-5xl">
+        <div class="mx-auto mb-10 lg:mb-16 max-w-2xl text-center">
+          <span
+            class="block mb-2 font-heading font-bold text-amberAccent text-xs lg:text-sm uppercase tracking-widest"
+            >أسعار واضحة وبسيطة</span
+          >
+
+          <h2
+            class="font-heading font-black text-creamText text-2xl sm:text-3xl lg:text-4xl"
+          >
+            باقات تناسب وقتك وميزانيتك
+          </h2>
+
+          <p class="mt-4 text-mutedCream text-sm">
+            من غير أي مصاريف إدارية أو اشتراكات مخفية، ادفع فقط على قد وقتك
+          </p>
+        </div>
+
+        <div class="items-stretch gap-8 grid grid-cols-1 md:grid-cols-2">
+          <!-- Day Column (صباحي - 9:00 ص إلى 6:00 م) -->
+
+          <div
+            class="relative flex flex-col justify-between bg-night shadow-xl p-6 sm:p-8 lg:p-10 border border-nightBorder hover:border-nightBorderLight rounded-3xl transition-all duration-300"
+          >
+            <div>
+              <div class="flex flex-wrap justify-between items-center gap-3 mb-6">
+                <div class="flex items-center gap-3">
+                  <div
+                    class="flex justify-center items-center bg-amberAccent/10 border border-amberAccent/30 rounded-full w-10 h-10"
+                  >
+                    <svg
+                      class="w-5 h-5 text-amberAccent"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewbox="0 0 24 24"
+                    >
+                      <circle cx="12" cy="12" r="5"></circle>
+
+                      <line x1="12" x2="12" y1="1" y2="3"></line>
+
+                      <line x1="12" x2="12" y1="21" y2="23"></line>
+
+                      <line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line>
+
+                      <line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line>
+
+                      <line x1="1" x2="3" y1="12" y2="12"></line>
+
+                      <line x1="21" x2="23" y1="12" y2="12"></line>
+
+                      <line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line>
+
+                      <line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line>
+                    </svg>
+                  </div>
+
+                  <h3
+                    class="font-heading font-extrabold text-creamText text-xl"
+                  >
+                    الباقة الصباحية
+                  </h3>
+                </div>
+
+                <span
+                  class="bg-nightSecondary px-3 py-1.5 border border-nightBorder rounded-full font-heading font-semibold text-mutedCream text-xs"
+                >
+                  9:00 ص – 6:00 م
+                </span>
+              </div>
+
+              <div class="my-6 py-6 border-nightBorder/60 border-y">
+                <div class="flex items-baseline gap-2 mb-2">
+                  <span class="font-heading font-black text-creamText text-4xl"
+                    >10</span
+                  >
+
+                  <span class="font-heading font-bold text-amberAccent text-xl"
+                    >ج.م</span
+                  >
+
+                  <span class="text-mutedCream text-base">/ للساعة</span>
+                </div>
+
+                <p class="text-mutedCream text-sm">
+                  مناسب للشغل السريع، الريموت وورك، والمذاكرة الهادية في ساعات
+                  النهار.
+                </p>
+              </div>
+
+              <div
+                class="bg-nightSecondary mb-8 p-5 border border-nightBorder/60 rounded-2xl"
+              >
+                <div class="flex flex-wrap justify-between items-baseline gap-x-3 mb-2">
+                  <span class="font-bold text-creamText text-sm"
+                    >اشتراك أسبوعي صباحي:</span
+                  >
+
+                  <span
+                    class="font-heading font-black text-amberAccent text-xl"
+                    >500 ج.م</span
+                  >
+                </div>
+
+                <p class="font-body text-mutedCream text-xs leading-relaxed">
+                  يشمل 6 أيام عمل من 9 صباحاً حتى 6 مساءً مع ديسك مخصص وخصم
+                  إضافي على بار المشروبات.
+                </p>
+              </div>
+            </div>
+
+            <a
+              class="block bg-nightCard hover:bg-nightBorderLight py-4 border border-nightBorder rounded-xl w-full font-heading font-bold text-creamText text-base text-center transition-all duration-300"
+              href="https://wa.me/201000000000?text=%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%20%D8%A7%D9%84%D8%A8%D8%A7%D9%82%D8%A9%20%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD%D9%8A%D8%A9"
+            >
+              اشترك على واتساب
+            </a>
+          </div>
+
+          <!-- Night Column (مسائي - 6:00 م إلى 12:00 ص) - Glowing Amber Border -->
+
+          <div
+            class="relative flex flex-col justify-between bg-night shadow-2xl p-6 sm:p-8 lg:p-10 amber-border-glow rounded-3xl transition-all md:-translate-y-2 duration-300 transform"
+          >
+            <!-- Featured Tag -->
+
+            <div
+              class="-top-3.5 left-8 absolute bg-amberAccent shadow-lg px-4 py-1 rounded-full font-heading font-black text-night text-xs"
+            >
+              الأوفر والأكثر طلباً
+            </div>
+
+            <div>
+              <div class="flex flex-wrap justify-between items-center gap-3 mb-6">
+                <div class="flex items-center gap-3">
+                  <div
+                    class="flex justify-center items-center bg-amberAccent/20 border border-amberAccent rounded-full w-10 h-10"
+                  >
+                    <svg
+                      class="w-5 h-5 text-amberAccent"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewbox="0 0 24 24"
+                    >
+                      <path
+                        d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+                      ></path>
+                    </svg>
+                  </div>
+
+                  <h3
+                    class="font-heading font-extrabold text-creamText text-xl"
+                  >
+                    الباقة المسائية
+                  </h3>
+                </div>
+
+                <span
+                  class="bg-amberAccent/15 px-3 py-1.5 border border-amberAccent/40 rounded-full font-heading font-bold text-amberAccent text-xs"
+                >
+                  6:00 م – 12:00 ص
+                </span>
+              </div>
+
+              <div class="my-6 py-6 border-nightBorder/60 border-y">
+                <div class="flex items-baseline gap-2 mb-2">
+                  <span
+                    class="font-heading font-black text-amberAccent text-4xl amber-glow-text"
+                    >25</span
+                  >
+
+                  <span class="font-heading font-bold text-creamText text-xl"
+                    >ج.م</span
+                  >
+
+                  <span class="text-mutedCream text-base">/ للساعة</span>
+                </div>
+
+                <p class="text-mutedCream text-sm">
+                  أجواء ليلية سينمائية، تركيز لا ينقطع، وضيافة مستمرة لمحبي
+                  العمل في الهدوء التام.
+                </p>
+              </div>
+
+              <div
+                class="relative bg-nightSecondary mb-8 p-5 border border-amberAccent/40 rounded-2xl overflow-hidden"
+              >
+                <div class="flex flex-wrap justify-between items-baseline gap-x-3 mb-2">
+                  <span class="font-bold text-creamText text-sm"
+                    >أسبوعي كامل (اليوم كله):</span
+                  >
+
+                  <span
+                    class="font-heading font-black text-amberAccent text-xl"
+                    >750 ج.م</span
+                  >
+                </div>
+
+                <p class="font-body text-mutedCream text-xs leading-relaxed">
+                  مفتوح من 9 ص لـ 12 بالليل طوال الأسبوع بدون أي قيود، مع مكانك
+                  المحجوز وخصم كامل على القاعات.
+                </p>
+              </div>
+            </div>
+
+            <a
+              class="block bg-amberAccent hover:bg-amberGlow py-4 rounded-xl w-full font-heading font-black text-night text-base text-center hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 amber-glow-box"
+              href="https://wa.me/201000000000?text=%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%20%D8%A7%D9%84%D8%A8%D8%A7%D9%82%D8%A9%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%A6%D9%8A%D8%A9"
+            >
+              اشترك على واتساب الآن
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: For Companies (Elegant Split Desktop Presentation) -->
+
+    <section
+      class="bg-night px-4 sm:px-10 lg:px-12 py-14 sm:py-20 lg:py-24 border-nightBorder border-t"
+      id="companies"
+    >
+      <div class="mx-auto max-w-7xl">
+        <div
+          class="items-center gap-8 lg:gap-16 grid grid-cols-1 lg:grid-cols-12"
+        >
+          <!-- Side A: High-res Boardroom Meeting Room Image -->
+
+          <div
+            class="group relative lg:col-span-6 shadow-2xl border border-nightBorder rounded-3xl overflow-hidden"
+          >
+            <img
+              alt="قاعة اجتماعات مجهزة للشركات في ريڤا"
+              class="brightness-[0.85] w-full h-[320px] sm:h-[450px] lg:h-[520px] object-cover group-hover:scale-105 transition-transform duration-700 filter"
+              src="https://lh3.googleusercontent.com/aida/AEtjO1Wp7O2o8y9ayKP8wsU_IKvj2PGgf0thFrfpDYS98TD1iMkcuhTDnTqQA_8I3QmGhjPcFvKyDu8eSCf1_v_o7wBGL-aHOQUvepEIqdjhN19stNPws6acuQKjy4gzaWfGlVt6PRgWkQiY1CHJg065N4hOZekjtxl_96RqiHQTTJffkApsOkHDKaWOkbxO4h7QK4lEbMdO83352r98_taGygnjfphHxy5ah5AWkcPm7kN13Wpy75eVggpud01_"
+            />
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-night/90 via-transparent to-transparent"
+            ></div>
+
+            <div
+              class="right-4 sm:right-6 bottom-4 sm:bottom-6 left-4 sm:left-6 absolute flex justify-between items-center gap-3 bg-night/85 backdrop-blur-md p-4 border border-nightBorder rounded-xl"
+            >
+              <div>
+                <span
+                  class="block font-heading font-bold text-creamText text-sm"
+                  >قاعة اجتماعات ومؤتمرات VIP</span
+                >
+
+                <span class="text-mutedCream text-xs"
+                  >تجهيزات تقنية كاملة مع ضيافة بريميوم</span
+                >
+              </div>
+
+              <span
+                class="bg-amberAccent/10 px-3 py-1 border border-amberAccent/30 rounded-md whitespace-nowrap shrink-0 font-heading font-bold text-amberAccent text-xs"
+              >
+                حتى 20 شخص
+              </span>
+            </div>
+          </div>
+
+          <!-- Side B: Content & Features -->
+
+          <div class="flex flex-col justify-center lg:col-span-6">
+            <span
+              class="block mb-2 font-heading font-bold text-amberAccent text-xs lg:text-sm uppercase tracking-widest"
+              >حلول متكاملة للبيزنس</span
+            >
+
+            <h2
+              class="mb-6 font-heading font-black text-creamText text-2xl sm:text-3xl lg:text-4xl"
+            >
+              عندك شركة؟
+            </h2>
+
+            <p
+              class="mb-8 font-body text-mutedCream text-sm lg:text-base leading-relaxed"
+            >
+              مكاتب خاصة مقفولة وقاعات اجتماعات فخمة بأسعار وعقود مرنة تناسب حجم
+              فريقك وتكبر مع بيزنسك، بدون مصاريف تأسيس معقدة وفواتير متفرقة.
+            </p>
+
+            <div class="space-y-4 mb-8">
+              <div
+                class="flex items-start gap-4 bg-nightSecondary hover:bg-nightCard p-5 border border-nightBorder rounded-2xl transition-colors"
+              >
+                <div
+                  class="flex-shrink-0 bg-amberAccent mt-2 rounded-full w-3 h-3 dot-glow"
+                ></div>
+
+                <div>
+                  <h4
+                    class="mb-1 font-heading font-bold text-creamText text-base"
+                  >
+                    مكاتب للإيجار الشهري
+                  </h4>
+
+                  <p class="font-body text-mutedCream text-sm leading-relaxed">
+                    مساحات مغلقة ومؤثثة بالكامل لفريقك من شخصين لحد 15 شخص،
+                    شاملة كل الفواتير والإنترنت والتنظيف والصيانة الدورية.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="flex items-start gap-4 bg-nightSecondary hover:bg-nightCard p-5 border border-nightBorder rounded-2xl transition-colors"
+              >
+                <div
+                  class="flex-shrink-0 bg-amberAccent mt-2 rounded-full w-3 h-3 dot-glow"
+                ></div>
+
+                <div>
+                  <h4
+                    class="mb-1 font-heading font-bold text-creamText text-base"
+                  >
+                    قاعات اجتماعات بالساعة أو باليوم
+                  </h4>
+
+                  <p class="font-body text-mutedCream text-sm leading-relaxed">
+                    لاستقبال عملائك، مقابلات الـ HR، وعروض المشاريع. شاشة 4K،
+                    وايت بورد ذكي، وضيافة رسمية تليق باسم شركتك أمام شركائك.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex sm:flex-row flex-col gap-4">
+              <a
+                class="bg-amberAccent hover:bg-amberGlow px-8 py-4 rounded-xl font-heading font-black text-night text-sm lg:text-base text-center transition-all duration-300 amber-glow-box"
+                href="https://wa.me/201000000000?text=%D8%B7%D9%84%D8%A8%20%D8%B9%D8%B1%D8%B6%20%D8%B3%D8%B9%D8%B1%20%D9%84%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA"
+              >
+                اطلب عرض سعر لشركتك
+              </a>
+
+              <a
+                class="bg-nightCard hover:bg-nightBorderLight px-8 py-4 border border-nightBorder rounded-xl font-heading font-semibold text-creamText text-sm lg:text-base text-center transition-all duration-300"
+                href="https://wa.me/201000000000?text=%D8%AA%D8%AD%D8%AF%D9%8A%D8%AF%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9"
+              >
+                حجز موعد معاينة ميدانية
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: Gallery (Expansive 5-Item Horizontal Desktop Showcase) -->
+
+    <section
+      class="bg-nightSecondary py-14 sm:py-20 lg:py-24 border-nightBorder border-t"
+      id="gallery"
+    >
+      <div
+        class="flex md:flex-row flex-col justify-between md:items-end gap-6 mx-auto mb-12 px-4 sm:px-10 lg:px-12 max-w-7xl"
+      >
+        <div>
+          <span
+            class="block mb-2 font-heading font-bold text-amberAccent text-xs lg:text-sm uppercase tracking-widest"
+            >جولة بصرية</span
+          >
+
+          <h2
+            class="font-heading font-black text-creamText text-2xl sm:text-3xl"
+          >
+            تعالى شوف المكان
+          </h2>
+        </div>
+
+        <p class="max-w-sm text-mutedCream text-sm">
+          نظرة سريعة على تصميم وأركان ريڤا المصممة لخلق بيئة عمل ملهمة
+        </p>
+      </div>
+
+      <!-- 5-Column Desktop Grid / Panoramic Gallery -->
+
+      <div class="mx-auto px-4 sm:px-10 lg:px-12 max-w-7xl">
+        <div class="gap-3 sm:gap-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <!-- 1. Desks -->
+
+          <div
+            class="group relative bg-night shadow-lg border border-nightBorder rounded-2xl overflow-hidden transition-all hover:-translate-y-1.5 duration-300"
+          >
+            <div class="h-36 sm:h-52 lg:h-60 overflow-hidden">
+              <img
+                alt="مكاتب العمل المشتركة"
+                class="brightness-90 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 filter"
+                src="https://lh3.googleusercontent.com/aida/AEtjO1WfWVf4P3eHKIjznNhVCxO6Y4-suDG1-D5wMi56prvbazAYh9kk-KL_-Ig8j1DBfOvmtVcjHSmWPpAckWjJ0gLvY6pgj3St4ZS11ukA0O9V5BYKZ7Hk5B7nnBwjCxTXhCGa8aZ289YUbvbadNFN0N4SbfYY2zpUlgq70iXYbTWTFOqYvPw5hw_wVqP4IKdaW-FTQ9HdtSjcTCPeLRWtYvtivJ58Taz6d87k2uZVNu60oszxhccDhGeShAz9"
+              />
+            </div>
+
+            <div class="bg-night p-3 sm:p-4 border-nightBorder border-t">
+              <p
+                class="font-heading font-bold text-creamText group-hover:text-amberAccent text-sm transition-colors"
+              >
+                مكاتب العمل الفردية
+              </p>
+
+              <p class="mt-1 font-body text-mutedCream text-xs">
+                إضاءة مدروسة وفيش شحن متعددة
+              </p>
+            </div>
+          </div>
+
+          <!-- 2. Private Office -->
+
+          <div
+            class="group relative bg-night shadow-lg border border-nightBorder rounded-2xl overflow-hidden transition-all hover:-translate-y-1.5 duration-300"
+          >
+            <div class="h-36 sm:h-52 lg:h-60 overflow-hidden">
+              <img
+                alt="مكتب تنفيذي خاص"
+                class="brightness-90 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 filter"
+                src="https://lh3.googleusercontent.com/aida/AEtjO1Wp7O2o8y9ayKP8wsU_IKvj2PGgf0thFrfpDYS98TD1iMkcuhTDnTqQA_8I3QmGhjPcFvKyDu8eSCf1_v_o7wBGL-aHOQUvepEIqdjhN19stNPws6acuQKjy4gzaWfGlVt6PRgWkQiY1CHJg065N4hOZekjtxl_96RqiHQTTJffkApsOkHDKaWOkbxO4h7QK4lEbMdO83352r98_taGygnjfphHxy5ah5AWkcPm7kN13Wpy75eVggpud01_"
+              />
+            </div>
+
+            <div class="bg-night p-3 sm:p-4 border-nightBorder border-t">
+              <p
+                class="font-heading font-bold text-creamText group-hover:text-amberAccent text-sm transition-colors"
+              >
+                مكتب خاص للفرق
+              </p>
+
+              <p class="mt-1 font-body text-mutedCream text-xs">
+                خصوصية كاملة مع عزل صوتي
+              </p>
+            </div>
+          </div>
+
+          <!-- 3. Meeting Room -->
+
+          <div
+            class="group relative bg-night shadow-lg border border-nightBorder rounded-2xl overflow-hidden transition-all hover:-translate-y-1.5 duration-300"
+          >
+            <div class="h-36 sm:h-52 lg:h-60 overflow-hidden">
+              <img
+                alt="قاعة اجتماعات مجهزة"
+                class="brightness-90 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 filter"
+                src="https://lh3.googleusercontent.com/aida/AEtjO1Wp7O2o8y9ayKP8wsU_IKvj2PGgf0thFrfpDYS98TD1iMkcuhTDnTqQA_8I3QmGhjPcFvKyDu8eSCf1_v_o7wBGL-aHOQUvepEIqdjhN19stNPws6acuQKjy4gzaWfGlVt6PRgWkQiY1CHJg065N4hOZekjtxl_96RqiHQTTJffkApsOkHDKaWOkbxO4h7QK4lEbMdO83352r98_taGygnjfphHxy5ah5AWkcPm7kN13Wpy75eVggpud01_"
+              />
+            </div>
+
+            <div class="bg-night p-3 sm:p-4 border-nightBorder border-t">
+              <p
+                class="font-heading font-bold text-creamText group-hover:text-amberAccent text-sm transition-colors"
+              >
+                قاعة الاجتماعات والعروض
+              </p>
+
+              <p class="mt-1 font-body text-mutedCream text-xs">
+                طاولة مؤتمرات وشاشات 4K حديثة
+              </p>
+            </div>
+          </div>
+
+          <!-- 4. Cozy Corner / Lounge -->
+
+          <div
+            class="group relative bg-night shadow-lg border border-nightBorder rounded-2xl overflow-hidden transition-all hover:-translate-y-1.5 duration-300"
+          >
+            <div class="h-36 sm:h-52 lg:h-60 overflow-hidden">
+              <img
+                alt="ركن القراءة والاسترخاء"
+                class="brightness-85 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 filter"
+                src="https://lh3.googleusercontent.com/aida/AEtjO1WfWVf4P3eHKIjznNhVCxO6Y4-suDG1-D5wMi56prvbazAYh9kk-KL_-Ig8j1DBfOvmtVcjHSmWPpAckWjJ0gLvY6pgj3St4ZS11ukA0O9V5BYKZ7Hk5B7nnBwjCxTXhCGa8aZ289YUbvbadNFN0N4SbfYY2zpUlgq70iXYbTWTFOqYvPw5hw_wVqP4IKdaW-FTQ9HdtSjcTCPeLRWtYvtivJ58Taz6d87k2uZVNu60oszxhccDhGeShAz9"
+              />
+            </div>
+
+            <div class="bg-night p-3 sm:p-4 border-nightBorder border-t">
+              <p
+                class="font-heading font-bold text-creamText group-hover:text-amberAccent text-sm transition-colors"
+              >
+                ركن الاستراحة الهادي
+              </p>
+
+              <p class="mt-1 font-body text-mutedCream text-xs">
+                جلسات مريحة للاسترخاء بين الشغل
+              </p>
+            </div>
+          </div>
+
+          <!-- 5. Coffee Bar -->
+
+          <div
+            class="group relative bg-night shadow-lg border border-nightBorder rounded-2xl overflow-hidden transition-all hover:-translate-y-1.5 duration-300"
+          >
+            <div class="h-36 sm:h-52 lg:h-60 overflow-hidden">
+              <img
+                alt="بار القهوة المتخصص"
+                class="brightness-90 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 filter"
+                src="https://lh3.googleusercontent.com/aida/AEtjO1XgYqs_eIPPbMger2FHrYnNGbAy5Eg6zfR11QI4-J9pQWtnqghKqr_EMbZo3guuPFm23npvaPWD94egRYyUdtJRbhgqBPpHPkRDYveYeH5oOEomy8Mx7snkn3VGRrai0JcSlCyWjDFyJ01XOSv9cH-ym8ah5PGezpaY6k2KSR7aaJLLaE2N_KwA8LmlycWGulbkmpHudVY5RnFnIaiM6fHCCJIvhjCjr59PB7mvnSKrHa0kGwHsSuM2k31v"
+              />
+            </div>
+
+            <div class="bg-night p-3 sm:p-4 border-nightBorder border-t">
+              <p
+                class="font-heading font-bold text-creamText group-hover:text-amberAccent text-sm transition-colors"
+              >
+                بار القهوة والمشروبات
+              </p>
+
+              <p class="mt-1 font-body text-mutedCream text-xs">
+                باريستا جاهز لخدمتك طول اليوم
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: Testimonials (Desktop Asymmetric Quote Grid) -->
+
+    <section
+      class="bg-night px-4 sm:px-10 lg:px-12 py-14 sm:py-20 lg:py-24 border-nightBorder border-t"
+    >
+      <div class="mx-auto max-w-7xl">
+        <div class="mb-10 lg:mb-14">
+          <span
+            class="block mb-2 font-heading font-bold text-amberAccent text-xs lg:text-sm uppercase tracking-widest"
+            >آراء رواد الأعمال</span
+          >
+
+          <h2
+            class="font-heading font-black text-creamText text-2xl sm:text-3xl"
+          >
+            قالوا عن ريڤا
+          </h2>
+        </div>
+
+        <div class="items-stretch gap-6 lg:gap-8 grid grid-cols-1 lg:grid-cols-12">
+          <!-- Big Featured Quote (7 Cols) -->
+
+          <div
+            class="relative flex flex-col justify-between lg:col-span-7 bg-nightSecondary shadow-2xl p-6 sm:p-8 lg:p-12 border border-amberAccent/40 rounded-3xl amber-glow-box"
+          >
+            <span
+              class="top-6 left-8 absolute font-heading text-amberAccent/20 text-7xl select-none"
+              >“</span
+            >
+
+            <div>
+              <div class="flex items-center gap-1 mb-6 text-amberAccent">
+                <span>★</span><span>★</span><span>★</span><span>★</span
+                ><span>★</span>
+
+                <span class="mr-2 text-mutedCream text-xs">تجربة 5 نجوم</span>
+              </div>
+
+              <p
+                class="z-10 relative mb-8 font-heading font-bold text-creamText text-base lg:text-xl leading-relaxed"
+              >
+                «أحسن مكان تشتغل فيه في الشرقية، هدوء حقيقي والنت عمره ما خذلنا
+                لا في كول ولا ديدلاين. الديكور والقهوة مخلين يوم الشغل ممتع
+                جداً.»
+              </p>
+            </div>
+
+            <div
+              class="flex items-center gap-4 pt-6 border-nightBorder/60 border-t"
+            >
+              <div
+                class="flex justify-center items-center bg-amberAccent/20 border border-amberAccent rounded-full w-14 h-14 font-heading font-bold text-amberAccent text-xl dot-glow"
+              >
+                أ
+              </div>
+
+              <div>
+                <h4 class="font-heading font-bold text-creamText text-base">
+                  أحمد
+                </h4>
+
+                <p class="text-mutedCream text-sm">مطور برمجيات (Freelancer)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Two Stacked Quotes (5 Cols) -->
+
+          <div class="flex flex-col justify-between gap-6 lg:col-span-5">
+            <div
+              class="flex flex-col flex-1 justify-between bg-nightSecondary hover:bg-nightCard p-7 border border-nightBorder rounded-2xl transition-all duration-300"
+            >
+              <p
+                class="mb-6 font-body text-creamText/90 text-sm leading-relaxed"
+              >
+                «القاعة كانت مثالية لاجتماع الشركة مع المستثمرين، الشاشة والصوت
+                والضيافة شرفونا قدام الناس والكل أشاد بالمكان والتنظيم.»
+              </p>
+
+              <div class="flex items-center gap-3">
+                <div
+                  class="flex justify-center items-center bg-nightCard border border-nightBorder rounded-full w-10 h-10 font-heading font-semibold text-creamText text-sm"
+                >
+                  س
+                </div>
+
+                <div>
+                  <h5 class="font-heading font-bold text-creamText text-sm">
+                    سارة
+                  </h5>
+
+                  <p class="text-mutedCream text-xs">
+                    مديرة مشروعات بشركة ناشئة
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col flex-1 justify-between bg-nightSecondary hover:bg-nightCard p-7 border border-nightBorder rounded-2xl transition-all duration-300"
+            >
+              <p
+                class="mb-6 font-body text-creamText/90 text-sm leading-relaxed"
+              >
+                «مكان هادي والنت سريع والإضاءة بالليل بتخليك تركز لساعات من غير
+                ما تحس بالوقت. المشروبات جودتها عالية جداً ومفيش أي تشتيت.»
+              </p>
+
+              <div class="flex items-center gap-3">
+                <div
+                  class="flex justify-center items-center bg-nightCard border border-nightBorder rounded-full w-10 h-10 font-heading font-semibold text-creamText text-sm"
+                >
+                  م
+                </div>
+
+                <div>
+                  <h5 class="font-heading font-bold text-creamText text-sm">
+                    محمد
+                  </h5>
+
+                  <p class="text-mutedCream text-xs">
+                    مصمم جرافيك ومخرج إعلانات
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: FAQ (Desktop Two-Column Layout) -->
+
+    <section
+      class="bg-nightSecondary px-4 sm:px-10 lg:px-12 py-14 sm:py-20 lg:py-24 border-nightBorder border-t"
+      id="faq"
+    >
+      <div class="mx-auto max-w-7xl">
+        <div class="gap-8 lg:gap-16 grid grid-cols-1 lg:grid-cols-12">
+          <!-- Left Column: Header and Quick Help Info -->
+
+          <div class="lg:col-span-5">
+            <span
+              class="block mb-2 font-heading font-bold text-amberAccent text-xs lg:text-sm uppercase tracking-widest"
+              >إجابات واضحة</span
+            >
+
+            <h2
+              class="mb-6 font-heading font-black text-creamText text-2xl sm:text-3xl"
+            >
+              أسئلة بتتكرر
+            </h2>
+
+            <p class="mb-8 font-body text-mutedCream text-sm leading-relaxed">
+              جمعنا لك هنا أهم الأسئلة اللي بنسألها باستمرار عن الحجز، الأسعار،
+              وطريقة العمل في ريڤا. لو عندك أي استفسار تاني فريقنا متاح على
+              واتساب علطول.
+            </p>
+
+            <div
+              class="inline-block bg-night p-6 border border-nightBorder rounded-2xl w-full"
+            >
+              <span
+                class="block mb-1 font-heading font-bold text-amberAccent text-xs"
+                >محتاج مساعدة فورية؟</span
+              >
+
+              <p class="mb-4 font-body text-creamText text-sm">
+                تواصل مع مسؤول الاستقبال لحجز قاعة أو استفسار مخصص
+              </p>
+
+              <a
+                class="inline-flex items-center gap-2 font-heading font-bold text-creamText hover:text-amberAccent text-sm transition-colors"
+                href="https://wa.me/201000000000?text=%D8%B9%D9%86%D8%AF%D9%8A%20%D8%B3%D8%A4%D8%A7%D9%84%20%D8%B9%D9%86%20%D8%B1%D9%8A%D9%81%D8%A7"
+              >
+                <span>تحدث مع الدعم الآن</span>
+
+                <span class="text-amberAccent">←</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Accordion Cards -->
+
+          <div class="space-y-4 lg:col-span-7">
+            <!-- Q1 -->
+
+            <details
+              class="group [&amp;_summary::-webkit-details-marker]:hidden bg-night p-4 sm:p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+              open=""
+            >
+              <summary
+                class="flex justify-between items-center gap-4 font-heading font-bold text-creamText text-sm lg:text-base cursor-pointer"
+              >
+                <span>لازم أحجز قبلها؟</span>
+
+                <span
+                  class="text-amberAccent text-xl group-open:rotate-180 transition-transform duration-300"
+                  >↓</span
+                >
+              </summary>
+
+              <p
+                class="mt-4 pt-4 border-nightBorder/60 border-t font-body text-mutedCream text-sm leading-relaxed"
+              >
+                للمساحة المشتركة (بالساعة أو اليوم) تقدر تنورنا على طول من غير
+                حجز مسبق، بتختار الديسك اللي يعجبك وتبدأ فوراً. أما قاعات
+                الاجتماعات والمكاتب الخاصة فبنفضل الحجز قبلها بوقت كافي على
+                واتساب لضمان توافرها في المعاد المطلوب.
+              </p>
+            </details>
+
+            <!-- Q2 -->
+
+            <details
+              class="group [&amp;_summary::-webkit-details-marker]:hidden bg-night p-4 sm:p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+            >
+              <summary
+                class="flex justify-between items-center gap-4 font-heading font-bold text-creamText text-sm lg:text-base cursor-pointer"
+              >
+                <span>إزاي بيتم الدفع؟</span>
+
+                <span
+                  class="text-amberAccent text-xl group-open:rotate-180 transition-transform duration-300"
+                  >↓</span
+                >
+              </summary>
+
+              <p
+                class="mt-4 pt-4 border-nightBorder/60 border-t font-body text-mutedCream text-sm leading-relaxed"
+              >
+                بنقبل الدفع كاش في الاستقبال، أو تحويل فودافون كاش، إنستاباي
+                (InstaPay)، وجميع البطاقات البنكية الائتمانية والخصم المباشر
+                (Visa / Mastercard).
+              </p>
+            </details>
+
+            <!-- Q3 -->
+
+            <details
+              class="group [&amp;_summary::-webkit-details-marker]:hidden bg-night p-4 sm:p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+            >
+              <summary
+                class="flex justify-between items-center gap-4 font-heading font-bold text-creamText text-sm lg:text-base cursor-pointer"
+              >
+                <span>ينفع أأجر مكتب لشهر؟</span>
+
+                <span
+                  class="text-amberAccent text-xl group-open:rotate-180 transition-transform duration-300"
+                  >↓</span
+                >
+              </summary>
+
+              <p
+                class="mt-4 pt-4 border-nightBorder/60 border-t font-body text-mutedCream text-sm leading-relaxed"
+              >
+                أكيد، عندنا عقود مرنة للمكاتب الخاصة تبدأ من شهر وحتى عقود سنوية
+                بخصومات ممتازة للشركات الناشئة وفرق العمل، بدون شروط جزائية
+                معقدة.
+              </p>
+            </details>
+
+            <!-- Q4 -->
+
+            <details
+              class="group [&amp;_summary::-webkit-details-marker]:hidden bg-night p-4 sm:p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+            >
+              <summary
+                class="flex justify-between items-center gap-4 font-heading font-bold text-creamText text-sm lg:text-base cursor-pointer"
+              >
+                <span>القاعات بتستوعب كام شخص؟</span>
+
+                <span
+                  class="text-amberAccent text-xl group-open:rotate-180 transition-transform duration-300"
+                  >↓</span
+                >
+              </summary>
+
+              <p
+                class="mt-4 pt-4 border-nightBorder/60 border-t font-body text-mutedCream text-sm leading-relaxed"
+              >
+                عندنا قاعة مخصصة للاجتماعات الصغيرة تستوعب من 4 إلى 8 أفراد،
+                وقاعة المؤتمرات الكبرى بتستوعب حتى 20 فرد مع كامل التجهيزات
+                التقنية والشاشات الذكية.
+              </p>
+            </details>
+
+            <!-- Q5 -->
+
+            <details
+              class="group [&amp;_summary::-webkit-details-marker]:hidden bg-night p-4 sm:p-6 border border-nightBorder hover:border-amberAccent/40 rounded-2xl transition-all duration-300"
+            >
+              <summary
+                class="flex justify-between items-center gap-4 font-heading font-bold text-creamText text-sm lg:text-base cursor-pointer"
+              >
+                <span>فين مكانكم بالظبط؟</span>
+
+                <span
+                  class="text-amberAccent text-xl group-open:rotate-180 transition-transform duration-300"
+                  >↓</span
+                >
+              </summary>
+
+              <p
+                class="mt-4 pt-4 border-nightBorder/60 border-t font-body text-mutedCream text-sm leading-relaxed"
+              >
+                مكاننا في موقع حيوي ومميز بالشرقية قريب من المواصلات العامة
+                وأماكن ركن العربيات. تقدر تطلب اللوكيشن المباشر على واتساب
+                بنبعتهولك في ثواني.
+              </p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 10: Final CTA over Glowing Architecture + Panoramic Location Card -->
+
+    <section
+      class="relative px-4 sm:px-10 lg:px-12 py-16 sm:py-24 lg:py-28 border-nightBorder border-t overflow-hidden"
+    >
+      <!-- Glowing Night Architectural Backdrop -->
+
+      <div class="z-0 absolute inset-0">
+        <img
+          alt="مبنى ريڤا بالليل"
+          class="brightness-[0.22] w-full h-full object-cover filter contrast-125"
+          src="https://lh3.googleusercontent.com/aida/AEtjO1WfWVf4P3eHKIjznNhVCxO6Y4-suDG1-D5wMi56prvbazAYh9kk-KL_-Ig8j1DBfOvmtVcjHSmWPpAckWjJ0gLvY6pgj3St4ZS11ukA0O9V5BYKZ7Hk5B7nnBwjCxTXhCGa8aZ289YUbvbadNFN0N4SbfYY2zpUlgq70iXYbTWTFOqYvPw5hw_wVqP4IKdaW-FTQ9HdtSjcTCPeLRWtYvtivJ58Taz6d87k2uZVNu60oszxhccDhGeShAz9"
+        />
+
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-night via-night/85 to-night"
+        ></div>
+
+        <div
+          class="absolute inset-0 bg-[radial-gradient(circle_at_top,transparent_30%,#121110_90%)]"
+        ></div>
+      </div>
+
+      <div class="z-10 relative mx-auto max-w-6xl">
+        <div
+          class="bg-nightSecondary/90 shadow-2xl backdrop-blur-xl p-5 sm:p-8 lg:p-14 border border-amberAccent/30 rounded-3xl amber-glow-box"
+        >
+          <div class="items-center gap-10 grid grid-cols-1 lg:grid-cols-12">
+            <!-- Right Side: Powerful CTA and WhatsApp Action -->
+
+            <div class="lg:col-span-7 text-right">
+              <div
+                class="inline-flex items-center gap-2 bg-amberAccent/15 mb-6 px-3.5 py-1.5 border border-amberAccent/40 rounded-full"
+              >
+                <span
+                  class="bg-amberAccent rounded-full w-2.5 h-2.5 animate-ping dot-glow"
+                ></span>
+
+                <span class="font-heading font-bold text-amberAccent text-xs"
+                  >الباب مفتوح لك دلوقتي</span
+                >
+              </div>
+
+              <h2
+                class="mb-4 font-heading font-black text-creamText text-2xl sm:text-4xl leading-tight"
+              >
+                تعالى اشتغل بمزاج
+              </h2>
+
+              <p
+                class="mb-8 max-w-xl font-body text-mutedCream text-sm lg:text-base leading-relaxed"
+              >
+                سيبك من دوشة الكافيهات ومشاكل النت في البيت. مكانك وقهوتك ومكتبك
+                جاهزين في ريڤا بأعلى مستوى راحة.
+              </p>
+
+              <a
+                class="flex sm:inline-flex justify-center items-center gap-3 sm:gap-4 bg-amberAccent hover:bg-amberGlow shadow-xl px-5 sm:px-8 py-4 sm:py-5 rounded-2xl font-heading font-black text-night text-sm sm:text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 amber-glow-box"
+                href="https://wa.me/201000000000"
+              >
+                <svg class="fill-current w-6 h-6" viewbox="0 0 24 24">
+                  <path
+                    d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.585 1.761.88 2.791.88h.001c3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.586-5.766-5.769-5.766zm3.376 8.204c-.14.394-.813.766-1.127.813-.314.047-.698.077-1.128-.061-.43-.139-1.282-.444-2.185-1.25-.795-.711-1.326-1.577-1.481-1.844-.155-.268-.016-.412.124-.551.127-.126.282-.326.423-.489.14-.163.187-.279.282-.465.093-.186.046-.349-.024-.488-.07-.14-.627-1.512-.86-2.07-.227-.543-.458-.469-.628-.477-.163-.008-.35-.01-.537-.01-.186 0-.489.07-.745.349-.256.279-.977.955-.977 2.33 0 1.373 1.001 2.7 1.14 2.886.14.186 1.97 3.008 4.774 4.22 1.875.811 2.257.649 2.663.61.643-.061 1.458-.595 1.667-1.171.209-.576.209-1.07.146-1.171-.063-.101-.25-.163-.39-.233zM12 2C6.477 2 2 6.477 2 12c0 1.891.527 3.66 1.442 5.169L2 22l4.981-1.399C8.423 21.493 10.153 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"
+                  ></path>
+                </svg>
+
+                <span>احجز ديسك أو مكتب على واتساب</span>
+              </a>
+            </div>
+
+            <!-- Left Side: Interactive Contact & Map Card -->
+
+            <div class="space-y-4 lg:col-span-5">
+              <!-- Contact Card 1: Phone -->
+
+              <a
+                class="flex justify-between items-center gap-3 bg-night/80 hover:bg-night p-4 border border-nightBorder rounded-2xl transition-colors"
+                href="tel:+201000000000"
+              >
+                <div>
+                  <span class="block mb-1 text-mutedCream text-xs"
+                    >رقم الهاتف والحجز المباشر</span
+                  >
+
+                  <span
+                    class="inline-block font-heading font-bold text-creamText text-base"
+                    dir="ltr"
+                    >+20 1XX XXX XXXX</span
+                  >
+                </div>
+
+                <span
+                  class="bg-amberAccent/10 px-3 py-1.5 rounded-lg font-heading font-bold text-amberAccent text-xs whitespace-nowrap shrink-0"
+                  >اتصل الآن ←</span
+                >
+              </a>
+
+              <!-- Contact Card 2: Hours -->
+
+              <div
+                class="flex justify-between items-center gap-3 bg-night/80 p-4 border border-nightBorder rounded-2xl"
+              >
+                <div>
+                  <span class="block mb-1 text-mutedCream text-xs"
+                    >مواعيد العمل الرسمية</span
+                  >
+
+                  <span class="font-heading font-bold text-amberAccent text-sm"
+                    >يوميًا من 9 الصبح لـ 12 بالليل</span
+                  >
+                </div>
+
+                <span
+                  class="bg-emerald-500 rounded-full w-3 h-3 animate-pulse"
+                ></span>
+              </div>
+
+              <!-- Dark-Styled Interactive Map Placeholder -->
+
+              <div
+                class="relative flex justify-center items-center bg-nightCard p-4 border border-nightBorder rounded-2xl min-h-[12rem] overflow-hidden"
+              >
+                <div
+                  class="absolute inset-0 bg-[radial-gradient(#E8A34B_1px,transparent_1px)] opacity-20 [background-size:16px_16px]"
+                ></div>
+
+                <div
+                  class="z-10 relative flex flex-col items-center text-center"
+                >
+                  <div
+                    class="flex justify-center items-center bg-amberAccent/20 mb-2 border border-amberAccent rounded-full w-10 h-10 text-amberAccent dot-glow"
+                  >
+                    <svg class="fill-current w-5 h-5" viewbox="0 0 24 24">
+                      <path
+                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                      ></path>
+                    </svg>
+                  </div>
+
+                  <span
+                    class="mb-1 font-heading font-bold text-creamText text-sm"
+                    >الشرقية · بالقرب من كافة المواصلات الرئيسية</span
+                  >
+
+                  <span class="mb-3 text-mutedCream text-xs"
+                    >[العنوان بالتفصيل]، الشرقية، مصر</span
+                  >
+
+                  <a
+                    class="bg-night hover:bg-amberAccent px-4 py-1.5 border border-amberAccent/50 rounded-full font-heading font-bold text-amberAccent hover:text-night text-xs transition-colors"
+                    href="https://maps.google.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    فتح في خرائط جوجل ←
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 11: Expansive Desktop Footer -->
+
+    <footer
+      class="bg-night px-4 sm:px-10 lg:px-12 py-14 border-nightBorder border-t text-right"
+    >
+      <div class="mx-auto max-w-7xl">
+        <div
+          class="gap-8 md:gap-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 pb-12 border-nightBorder/60 border-b"
+        >
+          <!-- Col 1: Brand Info -->
+
+          <div class="sm:col-span-2">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="relative flex flex-col items-center">
+                <div class="flex gap-1 mb-[-4px]">
+                  <span
+                    class="bg-amberAccent rounded-full w-1.5 h-1.5 dot-glow"
+                  ></span>
+
+                  <span
+                    class="bg-amberAccent rounded-full w-1.5 h-1.5 dot-glow"
+                  ></span>
+
+                  <span
+                    class="bg-amberAccent rounded-full w-1.5 h-1.5 dot-glow"
+                  ></span>
+                </div>
+
+                <span
+                  class="font-heading font-black text-creamText text-2xl tracking-wider"
+                  >ريـڤـا</span
+                >
+              </div>
+            </div>
+
+            <p
+              class="max-w-md font-body text-mutedCream text-sm leading-relaxed"
+            >
+              مساحة عمل مشتركة، مكاتب خاصة مفروشة، وقاعات اجتماعات فاخرة في قلب
+              محافظة الشرقية، مصممة للمستقلين وأصحاب الشركات.
+            </p>
+          </div>
+
+          <!-- Col 2: Navigation Links -->
+
+          <div>
+            <h4 class="mb-4 font-heading font-bold text-creamText text-sm">
+              روابط سريعة
+            </h4>
+
+            <ul class="space-y-2.5 font-medium text-mutedCream text-xs">
+              <li>
+                <a
+                  class="hover:text-amberAccent transition-colors"
+                  href="#offerings"
+                  >مساحات العمل المشتركة</a
+                >
+              </li>
+
+              <li>
+                <a
+                  class="hover:text-amberAccent transition-colors"
+                  href="#offerings"
+                  >المكاتب الخاصة للشركات</a
+                >
+              </li>
+
+              <li>
+                <a
+                  class="hover:text-amberAccent transition-colors"
+                  href="#facilities"
+                  >المرافق وبار القهوة</a
+                >
+              </li>
+
+              <li>
+                <a
+                  class="hover:text-amberAccent transition-colors"
+                  href="#pricing"
+                  >أسعار الباقات الصباحية والمسائية</a
+                >
+              </li>
+
+              <li>
+                <a class="hover:text-amberAccent transition-colors" href="#faq"
+                  >الأسئلة الشائعة</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Hours & Contact -->
+
+          <div>
+            <h4 class="mb-4 font-heading font-bold text-creamText text-sm">
+              ساعات العمل
+            </h4>
+
+            <p class="mb-2 font-heading font-semibold text-amberAccent text-xs">
+              من 9:00 صباحاً حتى 12:00 منتصف الليل
+            </p>
+
+            <p class="mb-4 text-mutedCream text-xs leading-relaxed">
+              مفتوح 7 أيام في الأسبوع لاستقبالكم
+            </p>
+
+            <a
+              class="font-heading font-bold text-creamText hover:text-amberAccent text-xs decoration-amberAccent underline underline-offset-4"
+              href="https://wa.me/201000000000"
+            >
+              تواصل معنا عبر واتساب ←
+            </a>
+          </div>
+        </div>
+
+        <!-- Copyright Bar -->
+
+        <div
+          class="flex sm:flex-row flex-col justify-between items-center gap-3 pt-8 text-mutedCream/70 text-xs text-center"
+        >
+          <span>© 2026 ريڤا (Riva Coworking Space). جميع الحقوق محفوظة.</span>
+
+          <span class="text-mutedCream/50"
+            >صُمم لرواد الأعمال والمبدعين بالشرقية</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var toggle = document.getElementById("menu-toggle");
+        var menu = document.getElementById("mobile-menu");
+
+        function setOpen(open) {
+          menu.classList.toggle("hidden", !open);
+          toggle.setAttribute("aria-expanded", String(open));
+        }
+
+        toggle.addEventListener("click", function () {
+          setOpen(menu.classList.contains("hidden"));
+        });
+
+        menu.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            setOpen(false);
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
