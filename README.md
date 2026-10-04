@@ -35,6 +35,8 @@ Every booking button opens a WhatsApp chat with a pre-filled message.
 - Plain HTML with [Tailwind CSS](https://tailwindcss.com) loaded from the Play CDN; the theme (colors, fonts) is configured in a `<script>` block in the `<head>`
 - Google Fonts: Alexandria for headings, IBM Plex Sans Arabic for body text
 - A few lines of vanilla JavaScript for the mobile menu
+- SEO: meta description, Open Graph and Twitter tags, and JSON-LD structured data (`LocalBusiness` and `FAQPage`) in the `<head>`
+- Icons: `favicon.svg` and `apple-touch-icon.png`
 
 ## Before going live
 
@@ -42,13 +44,12 @@ The page still contains placeholder content that must be replaced:
 
 | What | Current value | Where |
 | --- | --- | --- |
-| WhatsApp number | `201000000000` | every `wa.me` link |
-| Phone number | `+20 1XX XXX XXXX` / `tel:+201000000000` | final call-to-action section |
 | Address | `[العنوان بالتفصيل]` | final call-to-action section |
 | Map link | `https://maps.google.com` | final call-to-action section |
 | Images | hotlinked from `lh3.googleusercontent.com` | all `<img>` tags |
 
-Two more things to do for production:
+Three more things to do for production:
 
-- **Host the images yourself.** The current image URLs are not permanent and may stop working.
+- **Host the images yourself.** The current image URLs are not permanent and may stop working. This includes the social sharing image (`og:image`), which points at the same hotlinked hero photo.
+- **Add the site URL.** Once the domain is known, add a canonical link and `og:url` to the `<head>`, plus a `robots.txt` and `sitemap.xml`.
 - **Replace the Tailwind Play CDN.** It is intended for development only; generate a compiled CSS file with the Tailwind CLI instead.
